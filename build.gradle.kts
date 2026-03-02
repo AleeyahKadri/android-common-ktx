@@ -1,7 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     extra.apply {
-        set("detekt_version", "1.10.0")
+        set("detektVersion", "1.10.0")
     }
     repositories {
         google()
