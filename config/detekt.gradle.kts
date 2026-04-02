@@ -1,6 +1,4 @@
-plugins {
-    id("io.gitlab.arturbosch.detekt")
-}
+apply(plugin = "io.gitlab.arturbosch.detekt")
 
 detekt {
     config = files("$rootDir/config/detekt.yml")
