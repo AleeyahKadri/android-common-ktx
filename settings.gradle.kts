@@ -7,5 +7,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Android Extensions"
-include ':app'
-include ':common-ktx'
+include(":app")
+include(":common-ktx")
